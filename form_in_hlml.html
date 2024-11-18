@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>form</title>
+</head>
+
+<body>
+  <div>
+    <form action="">
+      <fieldset>
+        <legend>Costumer Details</legend>
+        <label for="">Step 1: Your details </label>
+        <br />
+        <br />
+        <!-- user Name -->
+        <label for="First">First Name</label>
+        <input type="text" name="" id="First" placeholder="First Name" required autofocus />
+
+        <label for="middle name">Middle Name</label>
+        <input type="text" name="" id="middle name" placeholder="middle Name" required autofocus />
+
+        <label for="last name"> Last Name</label>
+        <input type="text" name="" id="last name" placeholder="Last Name" required autofocus />
+        <br />
+        <br />
+        <!-- user date barth -->
+        <label for="date barth">Date barth</label>
+        <input type="date" id="date barth" />
+        <br />
+        <br />
+        <!-- user email  -->
+        <label for="Email">Email</label>
+        <input type="email" name="" id="Email" placeholder="example@domain.com" required />
+        <br />
+        <br />
+        <!--user phone number  -->
+        <label for="Phone">Phone</label>
+        <input type="tel" name="" id="Phone" placeholder="Eg. +916997606305" />
+        <br />
+        <br />
+        <!-- USER COUNTRY-->
+        <label for="select Country">Select Country</label>
+        <select name="" id="select Country">
+          <option value="Cselect" disabled selected>
+            --select your country--
+          </option>
+          <optgroup label="Asia">
+            <option value="India">India</option>
+            <option value="china">China</option>
+            <option value="pakistan">Pakistan</option>
+          </optgroup>
+          <option value="US">US</option>
+          <option value="Dubai">Dubai</option>
+        </select>
+        <br />
+        <br />
+        <!-- user address  -->
+        <label for="">Step 2: delivery address </label>
+        <br />
+        <br />
+        <label for="Address">Address</label>
+        <textarea name="" id="Address"></textarea>
+        <br />
+        <br />
+        <label for="Post">Post</label>
+        <input type="text" name="" id="Post" required />
+        <br />
+        <br />
+        <label for="Country">Country</label>
+        <input type="text" name="" id="Country" />
+        <br />
+        <br />
+        <label for="">Who will take delivery?</label>
+        <br />
+        <input type="checkbox" name="" id="Family" required checked />
+        <label for="Family">Family</label>
+        <br />
+        <input type="checkbox" name="" id="servant" />
+        <label for="servant">servant</label>
+        <br />
+        <input type="checkbox" name="" id="Neighbors" />
+        <label for="Neighbors">Neighbors</label>
+        <br />
+        <br />
+        <!-- user payment details -->
+        <label for="">Step 3: Card details</label>
+        <br />
+        <br />
+        <label for="">Card type</label>
+        <br />
+        <input type="radio" name="payment" id="VISA" />
+        <label for="VISA">VISA</label>
+
+        <input type="radio" name="payment" id="AmEx" />
+        <label for="AmEx">AmEx</label>
+
+        <input type="radio" name="payment" id="Mastercard" />
+        <label for="Mastercard">Mastercard</label>
+        <br />
+        <br />
+        <!-- user card number -->
+        <label for="Card_number">Card Number</label>
+        <input type="text" name="" id="Card_number" />
+        <br />
+        <br />
+        <label for="Security code">Security code</label>
+        <input type="text" name="" id="Security code" />
+        <br />
+        <br />
+        <label for="Name on card ">Name on card </label>
+        <input type="text" name="" id="Name on card " placeholder="Exact name as on the Card" />
+        <br />
+        <!-- submit button  -->
+        <input type="submit" value="BUY IT" />
+        <input type="reset" />
+      </fieldset>
+    </form>
+  </div>
+</body>
+
+</html>
