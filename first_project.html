@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>create menu</title>
+</head>
+
+<body>
+    <!-- this is a menu bar -->
+    <div>
+        <label>Go to paragraph First <button><a href="#paragraph1">Click Here </a></button></label>
+        <label>Go to Table <button><a href="#table">Click Here </a></button></label>
+        <label>Go to Form <button><a href="#form">Click Here </a></button></label>
+        <label>Go to image <button><a href="#img">Click Here </a></button></label>
+        <label>Go to paragraph second <button><a href="#paragraph2">Click Here </a></button></label>
+        <label for="top" id="top2"></label>
+        <input type="hidden" name="" id="top">
+    </div>
+    <!-- This is paragraph -->
+    <hr>
+    <div id="paragraph1">
+        <h1>This is a paragraph First</h1>
+        <p style="text-align: justify;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore nobis
+            laboriosam illo veniam dolorum officiis modi nam nulla, officia omnis, esse, expedita iste assumenda
+            molestiae impedit hic quia qui perferendis! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Mollitia rem excepturi quas repudiandae a fugit tenetur eius aperiam asperiores nemo eaque qui ipsa delectus
+            deleniti sit aspernatur cupiditate impedit sunt eum iusto, voluptates natus. Ad quas fuga officiis similique
+            repellendus dolorum pariatur iste corrupti laudantium assumenda facere suscipit possimus ex quidem, rem
+            perspiciatis est quod a rerum et maiores? Eligendi quis tempora iusto odit animi rerum ea, sit quos officia
+            voluptates obcaecati vero! Adipisci voluptatem nam odio enim ullam ratione praesentium error molestiae sit
+            dolorum tenetur fugiat laboriosam dolore delectus libero mollitia consequuntur, expedita alias voluptates
+            recusandae, maxime hic vel!
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore nobis laboriosam illo veniam dolorum
+            officiis modi nam nulla, officia omnis, esse, expedita iste assumenda molestiae impedit hic quia qui
+            perferendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia rem excepturi quas
+            repudiandae a fugit tenetur eius aperiam asperiores nemo eaque qui ipsa delectus deleniti sit aspernatur
+            cupiditate impedit sunt eum iusto, voluptates natus. Ad quas fuga officiis similique repellendus dolorum
+            pariatur iste corrupti laudantium assumenda facere suscipit possimus ex quidem, rem perspiciatis est quod a
+            rerum et maiores? Eligendi quis tempora iusto odit animi rerum ea, sit quos officia voluptates obcaecati
+            vero! Adipisci voluptatem nam odio enim ullam ratione praesentium error molestiae sit dolorum tenetur fugiat
+            laboriosam dolore delectus libero mollitia consequuntur, expedita alias voluptates recusandae, maxime hic
+            vel!</p>
+        <p style="text-align: justify;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore nobis
+            laboriosam illo veniam dolorum officiis modi nam nulla, officia omnis, esse, expedita iste assumenda
+            molestiae impedit hic quia qui perferendis! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Mollitia rem excepturi quas repudiandae a fugit tenetur eius aperiam asperiores nemo eaque qui ipsa delectus
+            deleniti sit aspernatur cupiditate impedit sunt eum iusto, voluptates natus. Ad quas fuga officiis similique
+            repellendus dolorum pariatur iste corrupti laudantium assumenda facere suscipit possimus ex quidem, rem
+            perspiciatis est quod a rerum et maiores? Eligendi quis tempora iusto odit animi rerum ea, sit quos officia
+            voluptates obcaecati vero! Adipisci voluptatem nam odio enim ullam ratione praesentium error molestiae sit
+            dolorum tenetur fugiat laboriosam dolore delectus libero mollitia consequuntur, expedita alias voluptates
+            recusandae, maxime hic vel!</p>
+        <a href="#top2">Go back</a>
+    </div>
+    <br>
+    <hr>
+    <!--This is table -->
+    <div id="table">
+        <h2>This is Table</h2>
+        <table border="1px" style="text-align: center;">
+            <thead>
+                <tr>
+                    <th rowspan="2">Heading</th>
+                    <th>Students</th>
+                    <th colspan="3">Details</th>
+                </tr>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Department</th>
+                    <th>Roll Number</th>
+                </tr>
+            </thead>
+            <!-- table body  -->
+            <tbody>
+                <tr>
+                    <td rowspan="4">Student List</td>
+                    <td>1</td>
+                    <td>Victor</td>
+                    <td>Computer Science</td>
+                    <td>12345</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Williams</td>
+                    <td>Electronics</td>
+                    <td>23546</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Harry</td>
+                    <td>Electrical</td>
+                    <td>34567</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Rick</td>
+                    <td>Civil</td>
+                    <td>45678</td>
+                </tr>
+            </tbody>
+        </table>
+        <a href="#top2">Go back</a>
+    </div>
+    <br>
+    <hr>
+    <!-- this a form -->
+    <div style="width: 600px;" id="form">
+        <h2>This is a form</h2>
+        <form style="width: 550px;">
+            <fieldset>
+                <legend>Costumer Details</legend>
+                <label for="">Step 1: Your details </label>
+                <br />
+                <br />
+                <!-- user Name -->
+                <label for="First">First Name</label>
+                <input type="text" name="" id="First" placeholder="First Name" required autofocus />
+                <label for="middle name">Middle Name</label>
+                <input type="text" name="" id="middle name" placeholder="middle Name" required autofocus />
+                <label for="last name"> Last Name</label>
+                <input type="text" name="" id="last name" placeholder="Last Name" required autofocus />
+                <br />
+                <br />
+                <!-- user date barth -->
+                <label for="date barth">Date barth</label>
+                <input type="date" id="date barth" />
+                <br />
+                <br />
+                <!-- user email  -->
+                <label for="Email">Email</label>
+                <input type="email" name="" id="Email" placeholder="example@domain.com" required />
+                <br />
+                <br />
+                <!--user phone number  -->
+                <label for="Phone">Phone</label>
+                <input type="tel" name="" id="Phone" placeholder="Eg. +916997606305" />
+                <br />
+                <br />
+                <!-- USER COUNTRY-->
+                <label for="select Country">Select Country</label>
+                <select name="" id="select Country">
+                    <option value="Cselect" disabled selected>
+                        --select your country--
+                    </option>
+                    <optgroup label="Asia">
+                        <option value="India">India</option>
+                        <option value="china">China</option>
+                        <option value="pakistan">Pakistan</option>
+                    </optgroup>
+                    <option value="US">US</option>
+                    <option value="Dubai">Dubai</option>
+                </select>
+                <br />
+                <br />
+                <!-- user address  -->
+                <label for="">Step 2: delivery address </label>
+                <br />
+                <br />
+                <label for="Address">Address</label>
+                <textarea name="" id="Address"></textarea>
+                <br />
+                <br />
+                <label for="Post">Post</label>
+                <input type="text" name="" id="Post" required />
+                <br />
+                <br />
+                <label for="Country">Country</label>
+                <input type="text" name="" id="Country" />
+                <br />
+                <br />
+                <label for="">Who will take delivery?</label>
+                <br />
+                <input type="checkbox" name="" id="Family" required checked />
+                <label for="Family">Family</label>
+                <br />
+                <input type="checkbox" name="" id="servant" />
+                <label for="servant">servant</label>
+                <br />
+                <input type="checkbox" name="" id="Neighbors" />
+                <label for="Neighbors">Neighbors</label>
+                <br />
+                <br />
+                <!-- user payment details -->
+                <label for="">Step 3: Card details</label>
+                <br />
+                <br />
+                <label for="">Card type</label>
+                <br />
+                <input type="radio" name="payment" id="VISA" />
+                <label for="VISA">VISA</label>
+                <input type="radio" name="payment" id="AmEx" />
+                <label for="AmEx">AmEx</label>
+                <input type="radio" name="payment" id="Mastercard" />
+                <label for="Mastercard">Mastercard</label>
+                <br />
+                <br />
+                <!-- user card number -->
+                <label for="Card_number">Card Number</label>
+                <input type="text" name="" id="Card_number" />
+                <br />
+                <br />
+                <label for="Security code">Security code</label>
+                <input type="text" name="" id="Security code" />
+                <br />
+                <br />
+                <label for="Name on card ">Name on card </label>
+                <input type="text" name="" id="Name on card " placeholder="Exact name as on the Card" />
+                <br />
+                <!-- submit button  -->
+                <input type="submit" value="BUY IT" />
+                <input type="reset" />
+            </fieldset>
+        </form>
+        <a href="#top2">Go back</a>
+    </div>
+    <br>
+    <hr>
+    <!-- This is a image -->
+    <div id="img">
+        <h1>This is a image </h1>
+        <img src="../download (1).jfif" alt="This is a image">
+        <img src="../download.jfif" alt="This is a image">
+        <br>
+        <a href="#top2">Go back</a>
+    </div>
+    <hr>
+    <div id="paragraph2">
+        <h1>This is a second paragraph</h1>
+        <p style="text-align: justify;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore nobis
+            laboriosam illo veniam dolorum officiis modi nam nulla, officia omnis, esse, expedita iste assumenda
+            molestiae impedit hic quia qui perferendis! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Mollitia rem excepturi quas repudiandae a fugit tenetur eius aperiam asperiores nemo eaque qui ipsa delectus
+            deleniti sit aspernatur cupiditate impedit sunt eum iusto, voluptates natus. Ad quas fuga officiis similique
+            repellendus dolorum pariatur iste corrupti laudantium assumenda facere suscipit possimus ex quidem, rem
+            perspiciatis est quod a rerum et maiores? Eligendi quis tempora iusto odit animi rerum ea, sit quos officia
+            voluptates obcaecati vero! Adipisci voluptatem nam odio enim ullam ratione praesentium error molestiae sit
+            dolorum tenetur fugiat laboriosam dolore delectus libero mollitia consequuntur, expedita alias voluptates
+            recusandae, maxime hic vel!
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore nobis laboriosam illo veniam dolorum
+            officiis modi nam nulla, officia omnis, esse, expedita iste assumenda molestiae impedit hic quia qui
+            perferendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia rem excepturi quas
+            repudiandae a fugit tenetur eius aperiam asperiores nemo eaque qui ipsa delectus deleniti sit aspernatur
+            cupiditate impedit sunt eum iusto, voluptates natus. Ad quas fuga officiis similique repellendus dolorum
+            pariatur iste corrupti laudantium assumenda facere suscipit possimus ex quidem, rem perspiciatis est quod a
+            rerum et maiores? Eligendi quis tempora iusto odit animi rerum ea, sit quos officia voluptates obcaecati
+            vero! Adipisci voluptatem nam odio enim ullam ratione praesentium error molestiae sit dolorum tenetur fugiat
+            laboriosam dolore delectus libero mollitia consequuntur, expedita alias voluptates recusandae, maxime hic
+            vel!</p>
+        <p style="text-align: justify;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore nobis
+            laboriosam illo veniam dolorum officiis modi nam nulla, officia omnis, esse, expedita iste assumenda
+            molestiae impedit hic quia qui perferendis! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Mollitia rem excepturi quas repudiandae a fugit tenetur eius aperiam asperiores nemo eaque qui ipsa delectus
+            deleniti sit aspernatur cupiditate impedit sunt eum iusto, voluptates natus. Ad quas fuga officiis similique
+            repellendus dolorum pariatur iste corrupti laudantium assumenda facere suscipit possimus ex quidem, rem
+            perspiciatis est quod a rerum et maiores? Eligendi quis tempora iusto odit animi rerum ea, sit quos officia
+            voluptates obcaecati vero! Adipisci voluptatem nam odio enim ullam ratione praesentium error molestiae sit
+            dolorum tenetur fugiat laboriosam dolore delectus libero mollitia consequuntur, expedita alias voluptates
+            recusandae, maxime hic vel!</p>
+            <a href="#top2">Go back</a>
+    </div>
+</body>
+
+</html>
